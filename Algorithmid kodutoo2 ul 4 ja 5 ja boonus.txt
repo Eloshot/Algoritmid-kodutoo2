@@ -1,0 +1,21 @@
+UL4
+a) koigil on halvimal juhul ajakompleksus O(n^2)
+
+b)insert sort kuna seal on vahim arv vordlemisi ja liikutamisi
+
+UL5
+a) stabiilsed sortimisalgoritmid säilitavad võrdsete võtmetega (st väärtustega) vaartuste suhtelise järjekorra
+
+b)insert sort loetakse adaptiivseks kuna seda rohkem sorteeritud on antud list seda paremini ta tootab
+aga bubble ja selection sort jatavad sama kompleksuse
+
+Boonnus ul
+alg list[8,3,5,4,7,6,2]
+peale uhte labimist bubble sort me liikutame ssuurima elemendi kas algusesse voi loppu nagu vaja 
+saame kas [8,3,5,4,7,6,2] voi [2,3,5,4,7,6,8]
+ 
+peale uhte selection sort iteratiooni me liigutame vaikseima elemendi koige ette ja saame
+[2,3,5,4,7,6,8]
+
+insertion sortiga me saame peale uhte iteratiooni esimesed 2 liiget sorteeritud 
+[3,8,5,4,7,6,2]
